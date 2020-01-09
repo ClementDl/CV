@@ -265,7 +265,7 @@ h4{text-align:center;margin:30px 0;color:#444}
 .main-timeline4 .year:before{content:"";border-left:20px solid #f54957;border-top:10px solid transparent;border-bottom:10px solid transparent;position:absolute;bottom:-13px;right:0;transform:rotate(45deg)}
 .main-timeline4 .inner-content{padding:20px 0}
 .main-timeline4 .title{font-size:24px;font-weight:600;color:#f54957;text-transform:uppercase;margin:0 0 5px}
-.main-timeline4 .description{font-size:14px;color:#6f6f6f;margin:0 0 5px}
+.main-timeline4 .description{font-size:14px;color:black;margin:0 0 5px}
 .main-timeline4 .timeline:nth-child(2n){padding:0 100px 0 0}
 .main-timeline4 .timeline:nth-child(2n) .timeline-content:before,.main-timeline4 .timeline:nth-child(2n) .year,.main-timeline4 .timeline:nth-child(2n):before{left:auto;right:-10px}
 .main-timeline4 .timeline:nth-child(2n) .timeline-content{padding:0 150px 0 0}
