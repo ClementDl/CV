@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+</head>
+<body>
+<div class="jumbotron jumbotron-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-lg-6">
+                <h1 class="h1">
+                  Me contacter</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="well well-sm">
+                <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="name">
+                                    Votre nom</label>
+                                <input type="text" class="form-control" id="name" placeholder="Nom" required="required" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">
+                                   Email</label>
+                                <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                                    <input type="email" class="form-control" id="email" placeholder="Adresse mail" required="required" /></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+
+                                <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                          placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                                Envoyer</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <form>
+                <address>
+                    233 rue Philippe Alexandre Bommart<br>
+                    59500, Douai<br>
+                    <abbr title="Phone">
+                        Tel : </abbr>
+                    07.81.12.61.58
+                </address>
+                <address>
+                    <strong>Delforge Clément</strong><br>
+                    <a href="mailto:#">pro.clementd@gmail.com</a>
+                </address>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
