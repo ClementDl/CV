@@ -25,10 +25,7 @@ body {
     background-image: url("image/orange.jpg");
     background-size: cover;
 }
-#htrois{
-    text-decoration: underline;
-    color: grey;
-}
+
 footer {
     position:absolute;
     width:100%;
