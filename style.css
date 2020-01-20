@@ -6,10 +6,12 @@
 #apropos:hover{
     color: black;
 }
-#titre{
-    text-align: center;
-}
 
+#titre{
+    border: white 1px solid;
+    text-align: center;
+    margin: 5px;
+}
 
 h3{
     color: goldenrod;
